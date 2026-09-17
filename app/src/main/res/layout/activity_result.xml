@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F5F7FB">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SkillSphere"
+        android:textColor="#172033"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selection Result"
+        android:textColor="#4B5563"
+        android:textSize="18sp"
+        android:layout_marginBottom="30dp" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Selected Skill"
+        android:textColor="#172033"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:background="#FFFFFF"
+        android:padding="24dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Your selected skill will appear here."
+        android:textColor="#5B6472"
+        android:textSize="16sp"
+        android:background="#FFFFFF"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="← Back to Skills"
+        android:layout_marginTop="30dp" />
+
+</LinearLayout>
