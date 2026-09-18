@@ -417,7 +417,6 @@ The experiment successfully demonstrates how **ListView and ImageView** can be c
 The application also demonstrates activity navigation and data transfer using **Intent**, providing an interactive two-page user experience.
 
 ---
-
 ## Student Information
 
 **Name:** Harshini  
